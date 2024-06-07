@@ -23,7 +23,7 @@ cd abc001/a
 # 実行
 python3 main.py
 # テスト実行
-attest2
+attest
 # 提出
-atsb2
+atsb
 ```
