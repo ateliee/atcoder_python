@@ -17,6 +17,8 @@ cd contest
 acc new abc001
 cd abc001/a
 # 実行
+python3 main.py
+# テスト実行
 attest2
 # 提出
 atsb2
