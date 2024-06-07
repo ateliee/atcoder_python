@@ -16,6 +16,8 @@
 devcontainerにてコンテナに入り、下記を実行
 
 ```
+# ログイン
+acc login
 cd contest
 # コンテストダウンロード
 acc new abc001

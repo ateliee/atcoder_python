@@ -5,7 +5,7 @@ services:
     image: atcoder
     container_name: atcoder
     tty: true
-    working_dir: /atcoder_python
+    working_dir: /atcoder_python/contest
     volumes: 
       - ../../atcoder_python:/atcoder_python
     

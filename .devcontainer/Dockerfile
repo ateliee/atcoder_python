@@ -26,3 +26,7 @@ RUN python -m pip install --upgrade pip \
 # コンテスト補助ツールをインストール
 RUN pip3 install online-judge-tools
 RUN npm install -g atcoder-cli
+# テンプレートをコピー
+COPY template /root/.config/atcoder-cli-nodejs/
+# デフォルトテンプレート設定
+RUN acc config default-template python
