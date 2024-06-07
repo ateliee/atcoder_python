@@ -18,6 +18,8 @@ RUN apt-get update && \
 
 # pythonライブラリをインストール
 COPY requirements.txt /tmp/
+COPY .bashrc /root/
+RUN . ~/.bashrc
 RUN python -m pip install --upgrade pip \
     && pip install -r /tmp/requirements.txt
 
